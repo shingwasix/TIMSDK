@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+
+target 'TIMSDK_Example' do
+  pod 'TIMSDK'
+
+  target 'TIMSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

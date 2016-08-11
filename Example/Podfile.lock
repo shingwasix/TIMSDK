@@ -1,0 +1,23 @@
+PODS:
+  - TIMSDK (2.2.0):
+    - TIMSDK/Base (= 2.2.0)
+    - TIMSDK/Bugly (= 2.2.0)
+    - TIMSDK/Core (= 2.2.0)
+    - TIMSDK/QALHttp (= 2.2.0)
+  - TIMSDK/Base (2.2.0)
+  - TIMSDK/Bugly (2.2.0):
+    - TIMSDK/Base
+  - TIMSDK/Core (2.2.0):
+    - TIMSDK/Base
+  - TIMSDK/QALHttp (2.2.0):
+    - TIMSDK/Base
+
+DEPENDENCIES:
+  - TIMSDK
+
+SPEC CHECKSUMS:
+  TIMSDK: de9112903f1835ef1ab4bbe21cc816db05de79c1
+
+PODFILE CHECKSUM: 906295bfd040e25305334a71d544760a4f63592f
+
+COCOAPODS: 1.0.1
