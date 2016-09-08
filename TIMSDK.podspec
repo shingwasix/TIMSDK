@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/shingwasix/TIMSDK'
   s.license          = { :type => 'Copyright', :text => 'Copyright ©2013-2016 Qcloud.com' }
   s.author           = { 'Shingwa Six' => 'http://github.com/shingwasix' }
-  s.source           = { :http => 'http://dldir1.qq.com/hudongzhibo/im/IM_iOS_SDK_2.2.1.zip', :sha1 => 'e2d3fb4325fa9ec0ff7a2c3b8359e38985519d71' }
+  s.source           = { :http => 'http://dldir1.qq.com/hudongzhibo/im/IM_iOS_SDK_2.2.1.zip', :sha1 => 'dfa07d64255bca9285919dd47e974233b8e54f55' }
 
   s.ios.deployment_target = '7.0'
   s.frameworks = 'SystemConfiguration','CoreTelephony'
