@@ -1,23 +1,23 @@
 PODS:
-  - TIMSDK (2.2.0):
-    - TIMSDK/Base (= 2.2.0)
-    - TIMSDK/Bugly (= 2.2.0)
-    - TIMSDK/Core (= 2.2.0)
-    - TIMSDK/QALHttp (= 2.2.0)
-  - TIMSDK/Base (2.2.0)
-  - TIMSDK/Bugly (2.2.0):
+  - TIMSDK (2.2.1):
+    - TIMSDK/Base (= 2.2.1)
+    - TIMSDK/Bugly (= 2.2.1)
+    - TIMSDK/Core (= 2.2.1)
+    - TIMSDK/QALHttp (= 2.2.1)
+  - TIMSDK/Base (2.2.1)
+  - TIMSDK/Bugly (2.2.1):
     - TIMSDK/Base
-  - TIMSDK/Core (2.2.0):
+  - TIMSDK/Core (2.2.1):
     - TIMSDK/Base
-  - TIMSDK/QALHttp (2.2.0):
+  - TIMSDK/QALHttp (2.2.1):
     - TIMSDK/Base
 
 DEPENDENCIES:
-  - TIMSDK (= 2.2.0)
+  - TIMSDK (= 2.2.1)
 
 SPEC CHECKSUMS:
-  TIMSDK: de9112903f1835ef1ab4bbe21cc816db05de79c1
+  TIMSDK: 74ca0663b5b4531877f16e0b7b2bd49bc0778e53
 
-PODFILE CHECKSUM: 5aa80456be6a9f4e7feb5a5db61c6b51c62d2390
+PODFILE CHECKSUM: 89c72671878e0ed938c2cfcb9dfa0914ac262a13
 
 COCOAPODS: 1.0.1
