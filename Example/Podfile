@@ -2,7 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '7.0'
 
 target 'TIMSDK_Example' do
-  pod 'TIMSDK', '2.2.1'
+  pod 'TIMSDK', '2.3.0'
 
   target 'TIMSDK_Tests' do
     inherit! :search_paths
