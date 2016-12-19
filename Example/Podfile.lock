@@ -1,15 +1,15 @@
 PODS:
-  - TIMSDK (2.4.1):
-    - TIMSDK/Base (= 2.4.1)
-    - TIMSDK/Bugly (= 2.4.1)
-    - TIMSDK/Core (= 2.4.1)
-    - TIMSDK/QALHttp (= 2.4.1)
-  - TIMSDK/Base (2.4.1)
-  - TIMSDK/Bugly (2.4.1):
+  - TIMSDK (2.5.0):
+    - TIMSDK/Base (= 2.5.0)
+    - TIMSDK/Bugly (= 2.5.0)
+    - TIMSDK/Core (= 2.5.0)
+    - TIMSDK/QALHttp (= 2.5.0)
+  - TIMSDK/Base (2.5.0)
+  - TIMSDK/Bugly (2.5.0):
     - TIMSDK/Base
-  - TIMSDK/Core (2.4.1):
+  - TIMSDK/Core (2.5.0):
     - TIMSDK/Base
-  - TIMSDK/QALHttp (2.4.1):
+  - TIMSDK/QALHttp (2.5.0):
     - TIMSDK/Base
 
 DEPENDENCIES:
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :podspec: "../TIMSDK.podspec"
 
 SPEC CHECKSUMS:
-  TIMSDK: e53379531ab54480b35797ccfa61e3380c5153bc
+  TIMSDK: 2bdedbf41c3ae47b162c27f5c428a4daa2c97d7b
 
 PODFILE CHECKSUM: 2270d2674ce34d734b7579ce6bc6c82613ba90c7
 
