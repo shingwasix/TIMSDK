@@ -2,11 +2,12 @@
 //  TIMSDKTests.m
 //  TIMSDKTests
 //
-//  Created by Shingwa Six on 08/11/2016.
-//  Copyright (c) 2016 Shingwa Six. All rights reserved.
+//  Created by Shingwa Six on 01/17/2017.
+//  Copyright (c) 2017 Shingwa Six. All rights reserved.
 //
 
 @import XCTest;
+#import "TKViewController.h"
 
 @interface Tests : XCTestCase
 
@@ -28,7 +29,8 @@
 
 - (void)testExample
 {
-//    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    TKViewController *viewController = [[TKViewController alloc] init];
+    XCTAssertNotNil(viewController);
 }
 
 @end

@@ -1,8 +1,7 @@
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '7.0'
+use_frameworks!
 
 target 'TIMSDK_Example' do
-  pod 'TIMSDK', :podspec => '../TIMSDK.podspec'
+  pod 'TIMSDK', :path => '../'
 
   target 'TIMSDK_Tests' do
     inherit! :search_paths

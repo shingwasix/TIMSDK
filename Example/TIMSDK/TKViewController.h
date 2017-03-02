@@ -2,8 +2,8 @@
 //  TKViewController.h
 //  TIMSDK
 //
-//  Created by Shingwa Six on 08/11/2016.
-//  Copyright (c) 2016 Shingwa Six. All rights reserved.
+//  Created by Shingwa Six on 01/17/2017.
+//  Copyright (c) 2017 Shingwa Six. All rights reserved.
 //
 
 @import UIKit;

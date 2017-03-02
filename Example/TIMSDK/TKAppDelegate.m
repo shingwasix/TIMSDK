@@ -2,25 +2,17 @@
 //  TKAppDelegate.m
 //  TIMSDK
 //
-//  Created by Shingwa Six on 08/11/2016.
-//  Copyright (c) 2016 Shingwa Six. All rights reserved.
+//  Created by Shingwa Six on 01/17/2017.
+//  Copyright (c) 2017 Shingwa Six. All rights reserved.
 //
 
 #import "TKAppDelegate.h"
-#import <ImSDK/TIMVersion.h>
-#import <QALSDK/QalSDKProxy.h>
-#import <TLSSDK/version.h>
-#import <IMSDKBugly/IMSDKBugly.h>
 
 @implementation TKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    NSLog(@"IMSDK version:%d", IMSDK_VERSION);
-    NSLog(@"QalSDKProxy version:%@", [[QalSDKProxy sharedInstance] getSDKVer]);
-    NSLog(@"TLSSDK version:%d", VERSION);
-    NSLog(@"IMSDKBugly version:%@", [IMSDKBuglyConfig defaultConfig].version);
     return YES;
 }
 

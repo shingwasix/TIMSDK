@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D531173BD1D486DC0CEB0A8 /* libPods-TIMSDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0D69682CE0BF21645378D5 /* libPods-TIMSDK_Tests.a */; };
-		43E3C3D9FCD7C89DC809491B /* libPods-TIMSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB29FB3171A0E5D5639FB9F /* libPods-TIMSDK_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,6 +21,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B5C16F4682C0BBDB39274104 /* Pods_TIMSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1EEA09A02EA6F02AED0898 /* Pods_TIMSDK_Example.framework */; };
+		F2EC5101EBEFABF172E17088 /* Pods_TIMSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FC70CB6EF024884470E64F /* Pods_TIMSDK_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		58FFC374A6D6ED23130950EE /* Pods-TIMSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIMSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TIMSDK_Example/Pods-TIMSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5B5F2C9D9EF1136D66CF5BD9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2F1EEA09A02EA6F02AED0898 /* Pods_TIMSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIMSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TIMSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIMSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,14 +56,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		81CFAFF033CB152884059D84 /* Pods-TIMSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIMSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TIMSDK_Tests/Pods-TIMSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		73EA8FFDA3C081B8B12F57B9 /* Pods-TIMSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIMSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TIMSDK_Example/Pods-TIMSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		77180458CFA41FBAA917CCFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7C5E4259180BF8CE3110BA68 /* Pods-TIMSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIMSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TIMSDK_Example/Pods-TIMSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		80EC7D02E0A3A73ACD7A7D6E /* Pods-TIMSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIMSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TIMSDK_Tests/Pods-TIMSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		8C4240EFBBD36A795C53C777 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9CF183188E8F63A3DD40BE59 /* Pods-TIMSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIMSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TIMSDK_Tests/Pods-TIMSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9FE0513E7C330BA13A62AD79 /* TIMSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TIMSDK.podspec; path = ../TIMSDK.podspec; sourceTree = "<group>"; };
-		BBB29FB3171A0E5D5639FB9F /* libPods-TIMSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TIMSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D538E9FA8EDD2FF6BE1158C3 /* Pods-TIMSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIMSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TIMSDK_Example/Pods-TIMSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FC0D69682CE0BF21645378D5 /* libPods-TIMSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TIMSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E55BFDE976AE700086DBAEA /* TIMSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TIMSDK.podspec; path = ../TIMSDK.podspec; sourceTree = "<group>"; };
+		C71F6034986A004EABD24772 /* Pods-TIMSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIMSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TIMSDK_Tests/Pods-TIMSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DB82000A82A309043FF4F795 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F6FC70CB6EF024884470E64F /* Pods_TIMSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIMSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				43E3C3D9FCD7C89DC809491B /* libPods-TIMSDK_Example.a in Frameworks */,
+				B5C16F4682C0BBDB39274104 /* Pods_TIMSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,20 +86,20 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				1D531173BD1D486DC0CEB0A8 /* libPods-TIMSDK_Tests.a in Frameworks */,
+				F2EC5101EBEFABF172E17088 /* Pods_TIMSDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		295CC9FAAF3E8B016E151AAE /* Pods */ = {
+		27493C80B1DB183FFED2F262 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				58FFC374A6D6ED23130950EE /* Pods-TIMSDK_Example.debug.xcconfig */,
-				D538E9FA8EDD2FF6BE1158C3 /* Pods-TIMSDK_Example.release.xcconfig */,
-				81CFAFF033CB152884059D84 /* Pods-TIMSDK_Tests.debug.xcconfig */,
-				9CF183188E8F63A3DD40BE59 /* Pods-TIMSDK_Tests.release.xcconfig */,
+				73EA8FFDA3C081B8B12F57B9 /* Pods-TIMSDK_Example.debug.xcconfig */,
+				7C5E4259180BF8CE3110BA68 /* Pods-TIMSDK_Example.release.xcconfig */,
+				80EC7D02E0A3A73ACD7A7D6E /* Pods-TIMSDK_Tests.debug.xcconfig */,
+				C71F6034986A004EABD24772 /* Pods-TIMSDK_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -112,7 +112,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				295CC9FAAF3E8B016E151AAE /* Pods */,
+				27493C80B1DB183FFED2F262 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,8 +132,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				BBB29FB3171A0E5D5639FB9F /* libPods-TIMSDK_Example.a */,
-				FC0D69682CE0BF21645378D5 /* libPods-TIMSDK_Tests.a */,
+				2F1EEA09A02EA6F02AED0898 /* Pods_TIMSDK_Example.framework */,
+				F6FC70CB6EF024884470E64F /* Pods_TIMSDK_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,9 +186,9 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				9FE0513E7C330BA13A62AD79 /* TIMSDK.podspec */,
-				5B5F2C9D9EF1136D66CF5BD9 /* README.md */,
-				8C4240EFBBD36A795C53C777 /* LICENSE */,
+				9E55BFDE976AE700086DBAEA /* TIMSDK.podspec */,
+				DB82000A82A309043FF4F795 /* README.md */,
+				77180458CFA41FBAA917CCFB /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -200,12 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TIMSDK_Example" */;
 			buildPhases = (
-				32836958C93F874D4FC2B885 /* [CP] Check Pods Manifest.lock */,
+				1DB6DE0F65FC8502ADAC3533 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				C0C8D531260DD4869AC90F14 /* [CP] Embed Pods Frameworks */,
-				05C00A292D269CDC903E0E00 /* [CP] Copy Pods Resources */,
+				7C8CD3025612C46FD270F669 /* [CP] Embed Pods Frameworks */,
+				7DB5B41CFF0B548D49961850 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,12 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "TIMSDK_Tests" */;
 			buildPhases = (
-				BA2A63733FF7A6795E32B668 /* [CP] Check Pods Manifest.lock */,
+				9BCBA318C9014DAA99F6007C /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				17B07DEABBA89DDE6E0B12CC /* [CP] Embed Pods Frameworks */,
-				C83BD19E4B01A05A075A12BB /* [CP] Copy Pods Resources */,
+				4A84DEF07FACDE34C9A99669 /* [CP] Embed Pods Frameworks */,
+				BEFEDC9ACB1D5E3E34635FF3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,22 +293,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		05C00A292D269CDC903E0E00 /* [CP] Copy Pods Resources */ = {
+		1DB6DE0F65FC8502ADAC3533 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIMSDK_Example/Pods-TIMSDK_Example-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		17B07DEABBA89DDE6E0B12CC /* [CP] Embed Pods Frameworks */ = {
+		4A84DEF07FACDE34C9A99669 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,37 +323,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIMSDK_Tests/Pods-TIMSDK_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		32836958C93F874D4FC2B885 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BA2A63733FF7A6795E32B668 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C0C8D531260DD4869AC90F14 /* [CP] Embed Pods Frameworks */ = {
+		7C8CD3025612C46FD270F669 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,7 +338,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIMSDK_Example/Pods-TIMSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C83BD19E4B01A05A075A12BB /* [CP] Copy Pods Resources */ = {
+		7DB5B41CFF0B548D49961850 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIMSDK_Example/Pods-TIMSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BCBA318C9014DAA99F6007C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEFEDC9ACB1D5E3E34635FF3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -509,10 +509,11 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58FFC374A6D6ED23130950EE /* Pods-TIMSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = 73EA8FFDA3C081B8B12F57B9 /* Pods-TIMSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TIMSDK/TIMSDK-Prefix.pch";
 				INFOPLIST_FILE = "TIMSDK/TIMSDK-Info.plist";
@@ -525,10 +526,11 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D538E9FA8EDD2FF6BE1158C3 /* Pods-TIMSDK_Example.release.xcconfig */;
+			baseConfigurationReference = 7C5E4259180BF8CE3110BA68 /* Pods-TIMSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TIMSDK/TIMSDK-Prefix.pch";
 				INFOPLIST_FILE = "TIMSDK/TIMSDK-Info.plist";
@@ -541,7 +543,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81CFAFF033CB152884059D84 /* Pods-TIMSDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = 80EC7D02E0A3A73ACD7A7D6E /* Pods-TIMSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -565,7 +567,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CF183188E8F63A3DD40BE59 /* Pods-TIMSDK_Tests.release.xcconfig */;
+			baseConfigurationReference = C71F6034986A004EABD24772 /* Pods-TIMSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

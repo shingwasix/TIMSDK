@@ -11,7 +11,7 @@
 
 ## Version
 
-2.5.0
+2.5.1
 
 ## Requirements
 
@@ -47,13 +47,13 @@ Manual: [https://www.qcloud.com/doc/product/269/1565](https://www.qcloud.com/doc
 
 ### TIMSDK
 
-Copyright &copy; 2013-2016 Qcloud.com. All rights reserved.
+Copyright &copy; 2013-2017 Qcloud.com. All rights reserved.
 
 ### TIMSDK.podspec
 
 Licensed under the [MIT License]
 
-Copyright &copy; 2016 [Shingwa Six]
+Copyright &copy; 2016-2017 [Shingwa Six]
 
 [CocoaPods]: http://cocoapods.org/
 [MIT License]: http://creativecommons.org/licenses/MIT/
