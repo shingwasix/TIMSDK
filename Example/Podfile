@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'TIMSDK_Example' do
-  pod 'TIMSDK', :path => '../'
+  pod 'TIMSDK', :podspec => '../TIMSDK.podspec'
 
   target 'TIMSDK_Tests' do
     inherit! :search_paths
